@@ -1,0 +1,2 @@
+Mister_John 1970 john@mister.dk true Overtræner
+Lille_John 1999 tiny@me.dk true Assistenttræner

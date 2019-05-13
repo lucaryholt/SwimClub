@@ -1,4 +1,3 @@
-# SwimClub
 Svømmeklubben Delfinens program.
 
 Der er blevet oprettet tre logins, til de tre forskellige brugere af systemet:

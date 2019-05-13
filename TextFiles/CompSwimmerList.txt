@@ -1,0 +1,7 @@
+Jon_Snow 1991 jonsnow@thewall.dk false Konkurrence true Freestyle SeniorHold
+Yrsa_Jensen 2005 yrsa@jensen.dk false Konkurrence true Bryst JuniorHold
+Hannibal_Lecter 1980 yummi@humans.com false Konkurrence true Freestyle SeniorHold
+Lars_Løkke 2010 jegerklog@venstre.dk false Kokkurrence true Butterfly JuniorHold
+George_R_R_Martin 1960 worldsslowest@writer.com false Konkurrence true Ryg SeniorHold
+Tolkien 1892 john@tolkienestate.com false Konkurrence true Bryst SeniorHold
+John_McClane 1950 bloodyfeet@nagatomitower.com false Konkurrence true Butterfly SeniorHold
