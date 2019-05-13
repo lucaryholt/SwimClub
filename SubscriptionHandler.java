@@ -51,7 +51,7 @@ public class SubscriptionHandler {
     //'listMissingPayments()' makes a list of all the allSwimmers where the 'hasPaid' boolean is false
     //and shows how much each member has to pay
     public void listMissingPayments(){
-        System.out.println("Liste over medlemmer der ikke har betalt:");
+        System.out.println("Liste over medlemmer der er i restance:");
         for(int i = 0; i < aLH.getAllSwimmers().size(); i++){
             if(!aLH.getAllSwimmers().get(i).getHasPaid()){
                 System.out.println("("+ (i + 1) +") " + aLH.getAllSwimmers().get(i).getName());
@@ -73,7 +73,7 @@ public class SubscriptionHandler {
                 listMissingPayments();
 
                 System.out.println("Hvilket medlem vil du ændre betalingsstatus på?");
-                int choice = input.nextInt();
+                int choice = input.nextInt(); input.nextLine();
 
                 boolean correctChoice = false;
                 while(!correctChoice){
@@ -102,7 +102,7 @@ public class SubscriptionHandler {
                 }
                 writeToFile();
 
-                System.out.println("Vil du ændre betalingsstatus på endnu et medlem? Y/n");
+                System.out.println("Vil du ændre endnu en betalingsstatus? Y/n");
                 String choice0 = input.nextLine();
                 while(!choice0.equals("Y") && !choice0.equals("n")){
                     System.out.println("Du skal vælge 'Y' eller 'n'.");
@@ -114,8 +114,6 @@ public class SubscriptionHandler {
             }
         } catch (InputMismatchException e){
             System.out.println("Ugyldigt input. Prøv igen. Errorcode: 103x10.\n");
-        } catch (IndexOutOfBoundsException e) {
-            System.out.println("Ugyldigt input. Prøv igen. Errorcode: 103x11.\n");
         }
     }
 
@@ -157,7 +155,7 @@ public class SubscriptionHandler {
                     );
                 } else {
                     for(int i0 = 0; i0 < aLH.getCompSwimmers().size(); i0++){
-                        if(aLH.getCompSwimmers().get(i).getName().equals(aLH.getCompSwimmers().get(i0).getName())){
+                        if(aLH.getAllSwimmers().get(i).getName().equals(aLH.getCompSwimmers().get(i0).getName())){
                             PrintStream pS = new PrintStream(fosCM);
                             pS.println(
                                     aLH.realNameToUnderscore(aLH.getCompSwimmers().get(i0).getName()) + " " +

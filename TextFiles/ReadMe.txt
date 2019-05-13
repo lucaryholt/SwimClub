@@ -24,5 +24,3 @@ Programmet har brug for 7 tekstfiler for at fungere:
     ReadMe.txt
     TeamList.txt
     TrainingResults.txt
-
-/* Dette dokument er så meget overflødigt nu*/

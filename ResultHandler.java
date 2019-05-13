@@ -58,9 +58,12 @@ public class ResultHandler {
             aL.get(aL.size()-1).setName(aLH.searchCompSwimmer(input.nextLine()));
 
             aL.get(aL.size()-1).setSwimMeet("Træning");
-            System.out.println("Tid (minuter/Sekunder/hundredelesekunder): ");
+            System.out.println("Tid: ");
+            System.out.println("Minutter:");
             int temp1 = input.nextInt();
+            System.out.println("Sekunder:");
             int temp2 = input.nextInt();
+            System.out.println("Hundredelesekender:");
             int temp3 = input.nextInt(); input.nextLine();
             int temp4 = (temp1*6000) + (temp2*100) + temp3;
 
@@ -84,9 +87,12 @@ public class ResultHandler {
             aL.get(aL.size()-1).setName(aLH.searchCompSwimmer(input.nextLine()));
             System.out.println("Angiv stævne navn: ");
             aL.get(aL.size()-1).setSwimMeet(input.nextLine());
-            System.out.println("Tid (minuter og Sekunder/hundredelesekunder): ");
+            System.out.println("Tid: ");
+            System.out.println("Minutter:");
             int temp1 = input.nextInt();
+            System.out.println("Sekunder:");
             int temp2 = input.nextInt();
+            System.out.println("Hundredelesekender:");
             int temp3 = input.nextInt(); input.nextLine();
             int temp4 = (temp1*6000) + (temp2*100) + temp3;
 
@@ -202,7 +208,7 @@ public class ResultHandler {
                     }
                 }
                     break;
-                case "2" :  aLH.searchDisciplin(search);
+                case "2" :  search = aLH.searchDisciplin(search);
                     for(int i = 0; i < regOrComp.size(); i++){
                         if(regOrComp.get(i).getDisciplin().equalsIgnoreCase(search)){
                             choosenResults.add(regOrComp.get(i));

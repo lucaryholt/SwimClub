@@ -18,3 +18,6 @@ George_R_R_Martin Træning 7108 0 Ryg
 John_McClane Træning 10127 0 Butterfly
 George_R_R_Martin Træning 45138 0 Ryg
 Lars_Løkke Træning 23128 0 Butterfly
+Lars_Løkke Træning 49523 0 Bryst
+Jon_Snow Træning 44396 0 Bryst
+Lars_Løkke Træning 72234 0 Bryst

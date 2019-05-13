@@ -5,3 +5,5 @@ Hannibal_Lector DK_2014 23445 2 Freestyle
 Lars_Løkke EU_Flow 67990 1 Butterfly
 Yrsa_Jensen EU_Flow 80480 5 Bryst
 Jon_Snow EU_flow 33423 2 Freestyle
+Lars_Løkke DKOPEN 25623 2 Bryst
+Jon_Snow DKOPEN 32396 2 Freestyle

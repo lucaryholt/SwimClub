@@ -64,7 +64,7 @@ public class MenuHandler{
         while(loggedIn){
             Scanner input = new Scanner(System.in);
             System.out.println(
-                    "(1) Tilføj resultat" +
+                    "(1) Indskriv resultat" +
                     "\n(2) Hent top 5" +
                     "\n(3) Hent resultater"+
                     "\n(4) Skift motionistsvømmer til konkurrencesvømmer" +

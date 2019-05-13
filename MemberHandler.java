@@ -29,7 +29,7 @@ public class MemberHandler {
                 //Adds a member to Array List
                 swimmers.add(new Swimmer());
 
-                System.out.println("Du har valgt at tilføje en svømmer." + "\nNavn: ");
+                System.out.println("Du har valgt at tilføje en svømmer." + "\nNavn (fornavn og efternavn): ");
                 swimmers.get(swimmers.size()-1).setName(input.nextLine());
                 System.out.println("Årstal: ");
                 swimmers.get(swimmers.size()-1).setAge(input.nextInt());
