@@ -1,4 +1,4 @@
-﻿Svømmeklubben Delfinens program.
+Svømmeklubben Delfinens program.
 
 Der er blevet oprettet tre logins, til de tre forskellige brugere af systemet:
     Træner:
@@ -25,4 +25,4 @@ Programmet har brug for 7 tekstfiler for at fungere:
     TeamList.txt
     TrainingResults.txt
 
-/* Dette dokument er overflødigt nu*/
+/* Dette dokument ikke er overflødigt nu*/
